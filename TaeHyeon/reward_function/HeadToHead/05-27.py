@@ -1,3 +1,7 @@
+# 기존 코드 reward 값과 장애물 reward 값에 가중치를 둬서 더하는데 그렇게 하면
+# 장애물만 앞에 없으면 어떤 행동을 하더라도 reward 값이 너무 높아서
+# 기존 코드 reward에 장애물 상황에 따라 reward 값을 변경시켜줘야 하지 않을까 생각중
+
 def reward_function(params):
     ###############
     ### Imports ###
